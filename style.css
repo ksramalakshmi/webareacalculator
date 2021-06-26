@@ -1,0 +1,54 @@
+body {
+    padding: 12%;
+    overflow: hidden;
+    background-image: url("bg.png");
+    background-size: cover;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset{
+    border-radius: 6px;
+    border-style: double;
+    border-color: black;
+    width: 920px;
+    height: 330px;
+}
+
+legend{
+    font-weight:bolder;
+}
+
+.inline {
+    display: inline-block;
+    margin: 8px;
+}
+
+.heading{
+    font-size: smaller;
+}
+h1{
+    font-size: larger;
+}
+
+footer {
+    position : fixed;
+    top: 95%;
+    left: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    
+}
+
+.choice{
+    text-align: center;
+    
+}
+
+.result{
+    text-align: center;
+}
+.fix
+{
+    position: fixed;
+}

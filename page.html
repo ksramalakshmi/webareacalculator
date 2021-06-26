@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Area Calculator</title>
+        <script src = "calc.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <meta lang="English">
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>
+                    Area Calculator
+                </legend>
+
+                <p class="heading">Select Shape to Calculate Area</p>
+                <div class="choice">
+                <input type="radio" class="shape" name="shape" id="square" value="square" onclick="squareCheck()"/>Square
+                <input type="radio" class="shape" name="shape" id="rectangle" value="rectangle" onclick="rectCheck()"/>Rectangle
+                <input type="radio" class="shape" name="shape" id="triangle" value="triangle" onclick="triCheck()"/>Triangle
+                <input type="radio" class="shape" name="shape" id="circle" value="circle" onclick="circleCheck()"/>Circle
+                </div>
+                <p class="heading">Select Unit Entered</p>
+                <div class="choice">
+                <input type="radio" class="unit" name="unit" value="mm" id="milli"/>Millimetres
+                <input type="radio" class="unit" name="unit" value="cm" id ="centi"/>Centimetres
+                <input type="radio" class="unit" name="unit" value="m" id="metres"/>Metres
+                </div>
+                <hr/>
+                <div id='parameters'></div>
+
+                <h1>
+                    Area of the Figure :
+                </h1>
+                <div class="result">
+                <p><input type="text" name="result" placeholder="0" id="result" readonly/> (in square metres)</p>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+    <footer>
+        <p> © KSR, Made with Brains</p>
+    </footer>
+</html>
